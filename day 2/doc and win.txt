@@ -1,0 +1,31 @@
+					Day -2: documentation and window objects
+
+1. **Documentation:**
+   
+   Documentation, in the context of software development, refers to the written or electronic information that accompanies a software product or codebase. It serves several purposes:
+
+   - **Explanation:** Documentation provides explanations, descriptions, and instructions on how to use a software product, library, or API. It helps users, including developers, understand how to interact with and make the most of the software.
+
+   - **Reference:** It serves as a reference guide, detailing the functions, classes, methods, properties, and their usage. This reference information is invaluable when developers need to look up specific details about how to use different parts of the software.
+
+   - **Examples:** Documentation often includes code examples and usage scenarios to illustrate how to use the software effectively. These examples help developers apply the software to their own projects.
+
+   - **Versioning:** Documentation may include information about version history, changes, and updates. This is essential for developers to track changes and understand how their code may need to be adapted when updating to a new version of a software library or framework.
+
+   In web development, documentation is commonly associated with libraries, frameworks, programming languages, and APIs. For instance, there is extensive documentation available for JavaScript, HTML, CSS, and various JavaScript libraries and frameworks like React, Angular, and Vue.js.
+
+2. **`window` Object:**
+
+   The `window` object is a fundamental part of the Document Object Model (DOM) in web browsers. It represents the global window in which a web page runs and provides access to various properties and methods related to the browser window and the document loaded within it. Here are some key aspects of the `window` object:
+
+   - **Global Scope:** Variables and functions declared in the global scope are attached to the `window` object. For example, if you declare a global variable like `var x = 10;`, it becomes a property of the `window` object (`window.x`).
+
+   - **Browser Interaction:** The `window` object allows interaction with the browser, such as opening new windows or tabs (`window.open()`), redirecting to URLs (`window.location`), and handling events related to the window or document.
+
+   - **Access to DOM:** The `window` object provides access to the DOM, allowing you to manipulate the structure and content of web pages. For example, you can access and modify HTML elements using properties like `window.document` or `window.document.getElementById()`.
+
+   - **Timers and Events:** It enables the use of timers (e.g., `setTimeout()` and `setInterval()`) and event handling (e.g., `window.addEventListener()`) to create dynamic and interactive web pages.
+
+   The `window` object is an integral part of client-side JavaScript and is essential for building web applications and handling browser-related tasks.
+
+In summary, documentation serves as a resource for understanding and using software, while the `window` object is a JavaScript object that provides access to the browser's window and various functionalities related to web pages. They serve different purposes in the context of web development.

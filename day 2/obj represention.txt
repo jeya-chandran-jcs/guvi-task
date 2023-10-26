@@ -1,0 +1,31 @@
+			DAY-2:objects and Internal Representation in javascript
+
+
+Introduction
+
+JavaScript, one of the most popular programming languages for web development, is renowned for its flexibility and versatility. At the core of JavaScript's power lies its data structures, and one of the fundamental data structures in the language is the object. In this blog post, we will explore what objects are in JavaScript and delve into their internal representation, shedding light on how they work under the hood.
+
+Understanding JavaScript Objects
+In JavaScript, an object is a complex data type that allows you to store and organize data in a structured manner. Unlike simple data types such as numbers or strings, objects are collections of key-value pairs, making them incredibly versatile. These key-value pairs are referred to as object properties, and they can hold various data types, including other objects and functions.
+
+Internal Representation of Objects
+To truly understand objects in JavaScript, it's essential to explore their internal representation. At a high level, objects are stored as collections of key-value pairs, but there's more complexity beneath the surface.
+
+Hash Maps and Property Descriptors
+JavaScript engines internally use hash maps to store object properties efficiently. Each property is represented as a key-value pair in this hash map, where the key is the property name, and the value is a property descriptor object.
+
+A property descriptor contains information about the property's attributes, such as whether it's writable, enumerable, and configurable. These attributes define the behavior of the property.
+
+Prototypes and the Prototype Chain
+In JavaScript, objects can also have prototypes, which are essentially references to other objects. When you access a property on an object, the JavaScript engine first looks for that property in the object itself. If it doesn't find the property, it looks up the prototype chain until it finds the property or reaches the end of the chain.
+
+This feature enables prototypal inheritance, allowing objects to inherit properties and methods from other objects. It forms the basis for JavaScript's object-oriented programming model.
+
+Object Methods
+JavaScript objects come with built-in methods that allow you to manipulate them. For example, you can add, delete, or modify properties using methods like Object.defineProperty(), Object.keys(), and Object.setPrototypeOf().
+
+Conclusion
+JavaScript objects are a cornerstone of the language, providing a flexible and dynamic way to store and organize data. Their internal representation involves hash maps, property descriptors, prototypes, and a sophisticated system of property attributes. Understanding how objects work under the hood empowers developers to make the most of this versatile data structure, enabling them to build robust and efficient applications. Whether you're a novice or an experienced JavaScript developer, mastering objects is a key step toward becoming proficient in the language.
+
+
+

@@ -1,0 +1,89 @@
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+  color: white;
+  background-color: #323d49;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header,
+.box {
+  padding: 10px;
+  margin: 10px;
+}
+
+.orange {
+  background-color: #ff9e1b;
+  padding: 40px;
+}
+
+.lightblue {
+  background-color: #00b2e2;
+  padding: 40px;
+}
+
+.tomato {
+  background-color: #ff5959;
+  padding: 40px;
+}
+
+.box > div > div {
+  width: 50%;
+}
+
+.h1 {
+  font-style: bold;
+  font-size: 70px;
+  font-weight: 900;
+}
+
+.h3 {
+  font-style: bold;
+  font-size: 40px;
+  font-weight: 1000;
+}
+
+.content {
+  font-size: 26px;
+}
+
+.fa,
+.fas,
+.fal,
+.far {
+  margin: 0px 10px;
+  color: #323d49;
+}
+
+.fas,
+.fal,
+.far {
+  font-size: 60px;
+}
+
+.icon-orange {
+  color: #ff9e1b;
+}
+
+.icon-lightblue {
+  color: #00b2e2;
+}
+
+.icon-tomato {
+  color: #ff5959;
+}
+
+.head-icon {
+  background-color: #00b2e2;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  float: right;
+  margin-right: 30px;
+  border: 5px solid black;
+  box-shadow: 0 0 0 5px white;
+}
+</style>

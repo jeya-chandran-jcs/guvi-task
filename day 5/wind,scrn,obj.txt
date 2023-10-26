@@ -1,0 +1,18 @@
+In JavaScript, `window`, `screen`, and `document` are three important objects that are used to interact with the web page and browser environment, but they serve different purposes:
+
+1. `window` Object:
+   - The `window` object is the top-level object in the browser's Document Object Model (DOM). It represents the browser window or tab where your web page is loaded.
+   - It is the global object in client-side JavaScript and provides access to various properties and methods related to the browser window.
+   - Some common properties and methods of the `window` object include `window.innerWidth`, `window.innerHeight` (for the browser window's dimensions), `window.location` (for the URL of the current page), and `window.alert()` (for displaying alert dialogs).
+   - You can also create global variables and functions that are accessible from anywhere in your JavaScript code by attaching them to the `window` object.
+
+2. `screen` Object:
+   - The `screen` object represents the user's screen or monitor. It provides information about the user's screen properties.
+   - Common properties of the `screen` object include `screen.width` (the width of the screen in pixels), `screen.height` (the height of the screen in pixels), `screen.availWidth` (available width after excluding taskbars and system bars), and `screen.availHeight` (available height after excluding taskbars and system bars).
+   - Developers often use the `screen` object to create responsive designs or to determine the available screen space for pop-up windows or application layouts.
+
+3. `document` Object:
+   - The `document` object represents the DOM (Document Object Model) of the currently loaded web page. It provides access to the structure and content of the HTML document.
+   - You can use the `document` object to manipulate the HTML elements on the page, change their content, add or remove elements, and respond to user interactions.
+   - Common methods and properties of the `document` object include `document.getElementById()`, `document.querySelector()`, `document.createElement()`, and properties like `document.title` (to access or set the document's title).
+   - The `document` object is primarily used for client-side scripting to interact with and modify the web page's content dynamically.

@@ -1,0 +1,33 @@
+				Day 1 : Ip address,Port,https and mac address
+
+1. **IP Address (Internet Protocol Address):**
+   - An IP address is a unique numerical label assigned to each device (such as computers, routers, and smartphones) connected to a computer network that uses the Internet Protocol for communication.
+   - It serves two primary functions: identifying the host or network interface and providing the location of the host in the network.
+
+   - There are two main versions of IP addresses:
+     - **IPv4 (Internet Protocol version 4):** The most common version, represented as four sets of decimal numbers (e.g., 192.168.0.1).
+     - **IPv6 (Internet Protocol version 6):** A newer version designed to overcome the limitations of IPv4, represented as eight groups of hexadecimal digits (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
+
+2. **Port:**
+   - A port is a 16-bit number used to identify specific processes or services running on a device within a network.
+   - Ports are essential for allowing multiple network services to operate simultaneously on the same device.
+   - Ports are categorized into three ranges:
+     - **Well-known Ports (0-1023):** Reserved for commonly used services, such as HTTP (port 80) and FTP (port 21).
+     - **Registered Ports (1024-49151):** Assigned by the Internet Assigned Numbers Authority (IANA) for specific purposes.
+     - **Dynamic or Private Ports (49152-65535):** Available for general use by applications and services.
+
+3. **HTTP Methods (Hypertext Transfer Protocol):**
+   - HTTP is a protocol used for transmitting data over the World Wide Web. It defines a set of request methods that dictate the action to be performed on a given resource.
+   - Some common HTTP methods include:
+     - **GET:** Used to request data from a specified resource. Typically used for fetching web pages and other resources.
+     - **POST:** Used to submit data to be processed to a specified resource. Often used for form submissions and data creation.
+     - **PUT:** Used to update a resource or create a new resource if it doesn't exist.
+     - **DELETE:** Used to request the removal of a resource.
+     - **PATCH:** Used to apply partial modifications to a resource.
+     - **HEAD:** Similar to GET but only retrieves headers without the actual content.
+
+4. **MAC Address (Media Access Control Address):**
+   - A MAC address is a hardware address assigned to the network interface card (NIC) of a device at the factory.
+   - It is a unique identifier that allows devices on a local network (e.g., Ethernet or Wi-Fi) to communicate with each other.
+   - A MAC address consists of 6 bytes (48 bits) and is typically represented as six pairs of hexadecimal digits (e.g., 00:1A:2B:3C:4D:5E).
+   - Unlike IP addresses, MAC addresses are specific to the physical hardware and do not change, making them suitable for local network communication.
