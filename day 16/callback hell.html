@@ -1,39 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>callbackhell</title>
+    <title>Document</title>
+    <script src="script.js"></script>
 </head>
 <body>
-    <div id="output"></div>
-    <script>
-        function printNumberOnPage(number, callback) {
-            setTimeout(function() {
-                document.getElementById('output').innerHTML += number + '<br>';
-             callback()
-            }, 1000);
-        }
-
-        printNumberOnPage(1, function() {
-            printNumberOnPage(2, function() {
-                printNumberOnPage(3, function() {
-                    printNumberOnPage(4, function() {
-                        printNumberOnPage(5, function() {
-                            printNumberOnPage(6, function() {
-                                printNumberOnPage(7, function() {
-                                    printNumberOnPage(8, function() {
-                                        printNumberOnPage(9, function() {
-                                            printNumberOnPage(10, null);
-                                        });
-                                    });
-                                });
-                            });
-                        });
-                    });
-                });
-            });
-        });
-    </script>
+    <p id="para"></p>
 </body>
+
 </html>
