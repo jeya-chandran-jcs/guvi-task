@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Cat Viewer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f7f7f7;
+            text-align: center;
+            padding: 50px;
+        }
+        .cat-image {
+            max-width: 100%;
+            border: 5px solid white;
+            border-radius: 10px;
+        }
+        .btn-primary {
+            background-color: #FF4500;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #FF6347;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cool Cat Viewer</h1>
+        <img class="cat-image" id="catImage" src="" alt="Random Cat">
+        <br>
+        <button class="btn btn-primary mt-4" onclick="getRandomCatImage()">Get a New Cat</button>
+    </div>
+
+    <script src="script.js"> </script>
+    <script  src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>
