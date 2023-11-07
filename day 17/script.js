@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { name: "China", code: "CN" },
     ];
 
-    // Function to create a Bootstrap card
+    // Function  card
     function createCard(countryData) {
         const card = document.createElement("div");
         card.classList.add("custom-card", "mb-3");
@@ -23,14 +23,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
         document.getElementById("card-container").appendChild(card);
 
-        // Add an event listener to the "Click for weather" button
+        //  event listener Click for weather
         const weatherButton = card.querySelector("button");
         weatherButton.addEventListener("click", function () {
             fetchWeatherData(this.getAttribute("data-country-name"));
         });
     }
 
-    // Function to fetch weather data
+    //fetch weather data
     function fetchWeatherData(countryName) {
         // Use your OpenWeatherMap API key
         const apiKey = "c8b56c354e1812e5a24ec3861e6c5063";
@@ -46,12 +46,12 @@ document.addEventListener("DOMContentLoaded", function () {
             });
     }
 
-    // Fetch data and create cards for each country
+    // create cards for each country
     countries.forEach((country) => {
         fetchCountryData(country.name);
     });
 
-    // Function to fetch country data and flag URLs
+    // fetch country data and flag URLs
     function fetchCountryData(countryName) {
         let flagUrl;
         switch (countryName) {
