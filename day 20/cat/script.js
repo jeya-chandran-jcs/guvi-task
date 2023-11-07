@@ -10,4 +10,4 @@ function getRandomCatImage() {
         });
 }
 
-getRandomCatImage(); // Fetch a random cat image on page load
+getRandomCatImage(); // random cat image on page load
