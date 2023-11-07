@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freesound Piano Search</title>
+    <style>
+        body {
+            background-image: url('https://www.popsci.com/uploads/2021/07/27/pawel-czerwinski-eybM9n4yrpE-unsplash-scaled-e1685635468228.jpg?auto=webp');
+            background-size: cover;
+            background-blur: 5px; /* Add a slight blur effect to the background */
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Freesound Piano Sound Search</h1>
+    <p>Search for piano sounds on Freesound using the form below:</p>
+    <div>
+        <label for="searchQuery">Enter your search query:</label>
+        <input type="text" id="searchQuery" placeholder="e.g., classical piano">
+        <button onclick="searchPianoSounds()">Search</button>
+    </div>
+    <div id="results">
+        <!-- Sound results will be displayed here -->
+    </div>
+    
+    <p>If you're not sure what to search for, try keywords like "classical piano," "jazz piano," or "piano chords" to find piano sounds.</p>
+
+    <script src="script.js"></script>
+    
+    <script  src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>
