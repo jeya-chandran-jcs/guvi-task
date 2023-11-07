@@ -22,7 +22,7 @@ function displayResults(results) {
         soundLink.href = result.url;
         soundLink.target = "_blank";
         soundLink.textContent = result.name;
-        soundLink.style.color = "white"; // Set link text color to white
+        soundLink.style.color = "white"; 
         
         resultsContainer.appendChild(soundLink);
         resultsContainer.appendChild(document.createElement("br"));
